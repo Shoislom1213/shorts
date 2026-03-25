@@ -5,7 +5,7 @@ from utils import get_video_path
 
 def get_video_duration(url)
     if url is None
-        url = get_video_path())
+        url = get_video_path()
     cmd = [
         "ffprobe", "-v", "error",
         "-show_entries", "format=duration",
