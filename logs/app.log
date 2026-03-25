@@ -1,0 +1,655 @@
+00:33:41 | INFO | main | 🚀 Pipeline boshlandi
+00:40:21 | INFO | main | 🚀 Pipeline boshlandi
+00:53:41 | INFO | main | 🚀 Pipeline boshlandi
+00:53:51 | INFO | main | ✅ Video yuklandi
+00:53:52 | INFO | main | 🎧 Audio ajratildi
+00:53:52 | INFO | main | Papkalar yaratildi
+00:54:55 | INFO | main | 🚀 Pipeline boshlandi
+00:57:22 | INFO | main | ✅ Video yuklandi
+00:57:23 | INFO | main | 🎧 Audio ajratildi
+00:57:23 | INFO | main | Papkalar yaratildi
+00:58:18 | INFO | main | 🚀 Pipeline boshlandi
+01:03:37 | INFO | main | 🚀 Pipeline boshlandi
+01:03:37 | INFO | main | Papkalar yaratildi
+01:04:08 | ERROR | main | ❌ Video yuklab bo‘lmadi
+01:04:08 | INFO | main | ✅ Video yuklandi
+01:04:08 | INFO | main | 🎧 Audio ajratildi
+01:06:44 | INFO | main | 🧠 Speech detect: True
+01:06:44 | INFO | main | 📊 Whisper segmentlar olinmoqda...
+01:14:57 | INFO | main | 🚀 Pipeline boshlandi
+01:14:57 | INFO | main | 📁 Papkalar yaratildi
+01:15:20 | INFO | main | ✅ Video yuklandi
+01:15:20 | INFO | main | 🎧 Audio tayyor
+01:15:20 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+01:15:20 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+01:18:20 | INFO | main | 🧠 Speech detect: True
+01:18:20 | INFO | main | 📊 Whisper boshlanmoqda...
+01:20:28 | INFO | main | 📊 Segment type: <class 'list'>
+01:20:28 | INFO | main | 📊 Segment count: 54
+01:20:28 | INFO | main | 🪟 Window build...
+01:20:28 | INFO | main | 🪟 Window count: 52
+01:20:28 | INFO | main | 🎬 Clip build...
+01:20:28 | INFO | main | 📦 Clip count: 769
+01:20:28 | INFO | main | 🧹 Filtering...
+01:20:28 | INFO | main | 🏆 Top clips: 10
+01:20:28 | INFO | main | ✂️ Cutting...
+01:20:30 | INFO | main | 🎬 Tayyor videolar:
+01:20:30 | INFO | main | data/shorts\short_0.mp4
+01:20:30 | INFO | main | data/shorts\short_1.mp4
+01:20:30 | INFO | main | data/shorts\short_2.mp4
+01:20:30 | INFO | main | data/shorts\short_3.mp4
+01:20:30 | INFO | main | data/shorts\short_4.mp4
+01:20:30 | INFO | main | data/shorts\short_5.mp4
+01:20:30 | INFO | main | data/shorts\short_6.mp4
+01:20:30 | INFO | main | data/shorts\short_7.mp4
+01:20:30 | INFO | main | data/shorts\short_8.mp4
+01:20:30 | INFO | main | data/shorts\short_9.mp4
+01:39:08 | INFO | main | 🚀 Pipeline boshlandi
+01:39:08 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+01:39:08 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+01:40:22 | INFO | main | 🚀 Pipeline boshlandi
+01:40:22 | INFO | main | 📁 Papkalar yaratildi
+01:40:22 | ERROR | main | 💥 CRASH: ❌ Video topilmadi
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 40, in main
+    VIDEO_PATH = get_video_path()
+  File "C:\Users\islom\Desktop\youtub short\utils.py", line 17, in get_video_path
+    raise FileNotFoundError("❌ Video topilmadi")
+FileNotFoundError: ❌ Video topilmadi
+01:42:45 | INFO | main | 🚀 Pipeline boshlandi
+01:42:45 | INFO | main | 📁 Papkalar yaratildi
+01:44:12 | INFO | main | ✅ Video yuklandi
+01:45:15 | INFO | main | 🚀 Pipeline boshlandi
+01:45:16 | INFO | main | 🎧 Audio tayyor
+01:46:11 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+01:46:11 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+01:48:35 | INFO | main | 🧠 Speech detect: True
+01:49:49 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+01:49:49 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+01:51:42 | INFO | main | 🧠 Speech detect: True
+01:53:29 | INFO | main | 📊 Whisper boshlanmoqda...
+01:58:29 | INFO | main | 📊 Whisper boshlanmoqda...
+01:58:29 | INFO | whisper | 🎧 Whisper boshlandi...
+02:00:39 | INFO | whisper | ✅ Segmentlar soni: 45
+02:16:30 | INFO | whisper | 🎧 Whisper boshlandi...
+02:19:10 | INFO | whisper | ✅ Segmentlar soni: 48
+02:19:10 | INFO | main | 📊 Segment type: <class 'list'>
+02:19:10 | INFO | main | 📊 Segment count: 48
+02:19:10 | INFO | main | 🪟 Window build...
+02:19:10 | INFO | main | 🪟 Window count: 351
+14:21:01 | INFO | main | 🚀 Pipeline boshlandi
+14:21:01 | INFO | main | 📁 Papkalar yaratildi
+14:21:04 | INFO | main | ✅ Video yuklandi
+14:21:05 | INFO | main | 🎧 Audio tayyor
+14:21:05 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+14:21:05 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+14:23:26 | INFO | main | 🧠 Speech detect: True
+14:23:26 | INFO | main | 📊 Whisper boshlanmoqda...
+14:23:26 | INFO | whisper | 🎧 Whisper boshlandi...
+14:25:10 | INFO | whisper | ✅ Segmentlar soni: 49
+14:25:10 | INFO | main | 📊 Segment type: <class 'list'>
+14:25:10 | INFO | main | 📊 Segment count: 49
+14:25:10 | INFO | main | 🪟 Window build...
+14:25:10 | INFO | main | 🪟 Window count: 242
+14:25:10 | INFO | main | 🎬 Clip build...
+14:25:35 | INFO | main | 📦 Clip count: 19814
+14:32:15 | INFO | main | 🚀 Pipeline boshlandi
+14:32:15 | INFO | main | 📁 Papkalar yaratildi
+14:32:18 | INFO | main | ✅ Video yuklandi
+14:32:18 | INFO | main | 🎧 Audio tayyor
+14:32:18 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+14:32:18 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+14:34:25 | INFO | main | 🧠 Speech detect: True
+14:34:25 | INFO | main | 📊 Whisper boshlanmoqda...
+14:34:25 | INFO | whisper | 🎧 Whisper boshlandi...
+14:36:18 | INFO | whisper | ✅ Segmentlar soni: 54
+14:36:18 | INFO | main | 📊 Segment type: <class 'list'>
+14:36:18 | INFO | main | 📊 Segment count: 54
+14:36:18 | INFO | main | 🪟 Window build...
+14:36:18 | INFO | main | 🪟 Window count: 251
+14:36:18 | INFO | main | 🎬 Clip build...
+14:36:42 | INFO | main | 📦 Clip count: 19814
+14:39:12 | INFO | main | 🚀 Pipeline boshlandi
+14:39:12 | INFO | main | 📁 Papkalar yaratildi
+14:39:15 | INFO | main | ✅ Video yuklandi
+14:39:16 | INFO | main | 🎧 Audio tayyor
+14:39:16 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+14:39:16 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+14:41:40 | INFO | main | 🧠 Speech detect: True
+14:41:40 | INFO | main | 📊 Whisper boshlanmoqda...
+14:41:40 | INFO | whisper | 🎧 Whisper boshlandi...
+14:43:50 | INFO | whisper | ✅ Segmentlar soni: 74
+14:43:50 | INFO | main | 📊 Segment type: <class 'list'>
+14:43:50 | INFO | main | 📊 Segment count: 74
+14:43:50 | INFO | main | 🪟 Window build...
+14:43:50 | INFO | main | 🪟 Window count: 416
+14:43:50 | INFO | main | 💾 Windows saqlandi
+14:46:17 | ERROR | main | 💥 CRASH: name 'np' is not defined
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 74, in main
+    windows = eval(f.read())
+  File "<string>", line 1, in <module>
+NameError: name 'np' is not defined
+14:47:13 | INFO | main | 📂 Windows yuklandi: 416
+14:47:13 | INFO | main | 🎬 Clip build...
+14:47:53 | INFO | main | 📦 Clip count: 32787
+14:47:53 | INFO | main | 0.0-22.8 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+14:47:53 | INFO | main | 0.0-22.8 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+14:47:53 | INFO | main | 0.0-22.7 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+14:47:53 | INFO | main | 0.0-22.8 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+14:47:53 | INFO | main | 0.0-22.8 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+14:54:27 | INFO | main | 📂 Windows yuklandi: 416
+14:54:27 | INFO | main | 🎬 Clip build...
+14:54:27 | INFO | main | 📦 Clip count: 332
+14:54:27 | INFO | main | 0.0-22.8 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+14:54:27 | INFO | main | 0.0-22.8 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+14:54:27 | INFO | main | 0.0-22.7 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+14:54:27 | INFO | main | 2.1-22.8 | Kale nusasseepsia Kale 1000 höb âkeff Thanks to KAAAAAAAA Kö
+14:54:27 | INFO | main | 2.1-22.8 | Kale nusasseepsia Kale 1000 höb âkeff Thanks to KAAAAAAAA Kö
+15:25:26 | INFO | main | 📂 Windows yuklandi: 416
+15:25:26 | INFO | main | 🎬 Clip build...
+15:25:26 | INFO | main | 📦 Clip count: 324
+15:25:26 | INFO | main | 0.0-22.8 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+15:25:26 | INFO | main | 0.0-22.7 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+15:25:26 | INFO | main | 2.1-22.8 | Kale nusasseepsia Kale 1000 höb âkeff Thanks to KAAAAAAAA Kö
+15:25:26 | INFO | main | 2.1-22.7 | Kale nusasseepsia Kale 1000 höb âkeff Thanks to KAAAAAAAA Kö
+15:25:26 | INFO | main | 22.7-80.7 | költen hú k鍵  1 dsm 1 dsm 280 kron 2 ds 2 dc 1 dc 3 dc kimi 
+15:26:08 | INFO | main | 📂 Windows yuklandi: 416
+15:26:08 | INFO | main | 🎬 Clip build...
+15:26:08 | INFO | main | 📦 Clip count: 324
+15:26:08 | INFO | main | 0.0-22.8 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+15:26:08 | INFO | main | 0.0-22.7 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+15:26:08 | INFO | main | 2.1-22.8 | Kale nusasseepsia Kale 1000 höb âkeff Thanks to KAAAAAAAA Kö
+15:26:08 | INFO | main | 2.1-22.7 | Kale nusasseepsia Kale 1000 höb âkeff Thanks to KAAAAAAAA Kö
+15:26:08 | INFO | main | 22.7-80.7 | költen hú k鍵  1 dsm 1 dsm 280 kron 2 ds 2 dc 1 dc 3 dc kimi 
+15:28:16 | INFO | main | 📂 Windows yuklandi: 416
+15:28:16 | INFO | main | 🎬 Clip build...
+15:28:16 | INFO | main | 📦 Clip count: 309
+15:28:16 | INFO | main | 0.0-22.8 | Klieko..  Kale nusasseepsia Kale 1000 höb âkeff Thanks to KA
+15:28:16 | INFO | main | 2.1-22.8 | Kale nusasseepsia Kale 1000 höb âkeff Thanks to KAAAAAAAA Kö
+15:28:16 | INFO | main | 22.7-80.7 | költen hú k鍵  1 dsm 1 dsm 280 kron 2 ds 2 dc 1 dc 3 dc kimi 
+15:28:16 | INFO | main | 22.7-77.8 | költen hú k鍵  1 dsm 1 dsm 280 kron 2 ds 2 dc 1 dc 3 dc kimi 
+15:28:16 | INFO | main | 22.7-45.5 | költen hú k鍵  1 dsm 1 dsm 280 kron 2 ds 2 dc 1 dc 3 dc
+15:33:36 | INFO | main | 🚀 Pipeline boshlandi
+15:33:36 | INFO | main | 📁 Papkalar yaratildi
+15:33:40 | INFO | main | ✅ Video yuklandi
+15:33:41 | INFO | main | 🎧 Audio tayyor
+15:33:41 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+15:33:41 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+15:36:27 | INFO | main | 🧠 Speech detect: True
+15:36:27 | INFO | main | 📊 Whisper boshlanmoqda...
+15:36:27 | INFO | whisper | 🎧 Whisper boshlandi...
+15:37:07 | INFO | main | 🚀 Pipeline boshlandi
+15:37:07 | INFO | main | 📁 Papkalar yaratildi
+15:37:10 | INFO | main | ✅ Video yuklandi
+15:37:11 | INFO | main | 🎧 Audio tayyor
+15:37:11 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+15:37:11 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+15:38:35 | INFO | main | 🧠 Speech detect: True
+15:38:35 | INFO | main | 📊 Whisper boshlanmoqda...
+15:38:35 | INFO | whisper | 🎧 Whisper boshlandi...
+15:45:18 | INFO | whisper | ✅ Segmentlar soni: 114
+15:45:18 | INFO | main | 📊 Segment type: <class 'list'>
+15:45:18 | INFO | main | 📊 Segment count: 114
+15:45:18 | INFO | main | 🪟 Window build...
+15:45:18 | INFO | main | 🪟 Window count: 656
+15:45:18 | INFO | main | 💾 Windows saqlandi
+15:45:18 | INFO | main | 📂 Windows yuklandi: 656
+15:45:18 | INFO | main | 🎬 Clip build...
+15:45:18 | INFO | main | 📦 Clip count: 549
+15:45:18 | INFO | main | 1.1-57.6 | Mor Flower flower flower. A y самshriי kaderler datasetsCPed
+15:45:18 | INFO | main | 1.1-51.8 | Mor Flower flower flower. A y самshriי kaderler datasetsCPed
+15:45:18 | INFO | main | 1.1-49.7 | Mor Flower flower flower. A y самshriי kaderler datasetsCPed
+15:45:18 | INFO | main | 1.1-45.7 | Mor Flower flower flower. A y самshriי kaderler datasetsCPed
+15:45:18 | INFO | main | 1.1-43.4 | Mor Flower flower flower. A y самshriי kaderler datasetsCPed
+18:18:43 | INFO | main | 🚀 Pipeline boshlandi
+18:18:43 | INFO | main | 📁 Papkalar yaratildi
+18:19:24 | INFO | main | ✅ Video yuklandi
+18:19:25 | INFO | main | 🎧 Audio tayyor
+18:19:25 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+18:19:25 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+18:21:44 | INFO | main | 🧠 Speech detect: True
+18:21:44 | INFO | main | 📊 Whisper boshlanmoqda...
+18:21:44 | INFO | whisper | 🎧 Whisper boshlandi...
+18:33:33 | INFO | main | 🚀 Pipeline boshlandi
+18:33:33 | INFO | main | 📁 Papkalar yaratildi
+18:34:02 | INFO | main | ✅ Video yuklandi
+18:34:03 | INFO | main | 🎧 Audio tayyor
+18:34:03 | INFO | main | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+18:34:03 | INFO | main | 🎧 Audio path: data/audio\audio.wav
+21:00:31 | INFO | medium | 🚀 Pipeline boshlandi
+21:00:31 | INFO | medium | 📁 Papkalar yaratildi
+21:00:38 | INFO | medium | ✅ Video yuklandi
+21:00:39 | INFO | medium | 🎧 Audio tayyor
+21:00:39 | INFO | medium | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+21:00:39 | INFO | medium | 🎧 Audio path: data/audio\audio.wav
+21:02:20 | INFO | medium | 🧠 Speech detect: True
+21:02:20 | INFO | medium | 📊 Whisper boshlanmoqda...
+21:02:20 | INFO | whisper | 🎧 Whisper boshlandi...
+21:17:26 | INFO | medium | 🚀 Pipeline boshlandi
+21:17:26 | INFO | medium | 📁 Papkalar yaratildi
+21:17:35 | INFO | medium | ✅ Video yuklandi
+21:17:38 | INFO | medium | 🎧 Audio tayyor
+21:17:38 | INFO | medium | 📹 Video path: data/videos\Bolangizga sovg’a olishdan avval bu videoni ko’ring.mp4
+21:17:38 | INFO | medium | 🎧 Audio path: data/audio\audio.wav
+21:17:38 | INFO | medium | 📊 Whisper boshlanmoqda...
+21:17:38 | INFO | whisper | 🎧 Whisper boshlandi...
+21:47:46 | INFO | medium | 🚀 Pipeline boshlandi
+21:47:46 | INFO | medium | 📁 Papkalar yaratildi
+21:47:52 | INFO | medium | ✅ Video yuklandi
+21:47:53 | INFO | medium | 🎧 Audio tayyor
+21:47:53 | INFO | medium | 📹 Video path: data/videos\Morning Routine to Improve Your English – Inspired by Jack Ma.mp4
+21:47:53 | INFO | medium | 🎧 Audio path: data/audio\audio.wav
+21:47:53 | INFO | medium | 📊 Whisper boshlanmoqda...
+21:47:53 | INFO | whisper | 🎧 Whisper boshlandi...
+22:10:05 | INFO | whisper | ✅ Tozalangan segmentlar: 100
+22:10:05 | INFO | medium | 📊 Segment type: <class 'list'>
+22:10:05 | INFO | medium | 📊 Segment count: 100
+22:10:05 | INFO | medium | 🪟 Window build...
+22:10:05 | INFO | medium | 🪟 Window count: 567
+22:10:05 | INFO | medium | 💾 Windows saqlandi
+22:34:57 | INFO | pipeline | 🚀 Pipeline boshlandi
+22:34:57 | INFO | pipeline | 📁 Papkalar yaratildi
+22:35:02 | INFO | pipeline | ✅ Video yuklandi
+22:35:02 | INFO | pipeline | 🎧 Audio tayyor
+22:35:02 | INFO | pipeline | 📹 Video path: data/videos\Morning Routine to Improve Your English – Inspired by Jack Ma.mp4
+22:35:02 | INFO | pipeline | 🎧 Audio path: data/audio\audio.wav
+22:35:02 | INFO | pipeline | 📊 Whisper boshlanmoqda...
+22:35:02 | INFO | whisper | 🎧 Whisper boshlandi...
+22:49:35 | INFO | pipeline | 🚀 Pipeline boshlandi
+22:49:35 | INFO | pipeline | 📁 Papkalar yaratildi
+22:49:41 | INFO | pipeline | ✅ Video yuklandi
+22:49:42 | INFO | pipeline | 🎧 Audio tayyor
+22:49:42 | INFO | pipeline | 📹 Video path: data/videos\Morning Routine to Improve Your English – Inspired by Jack Ma.mp4
+22:49:42 | INFO | pipeline | 🎧 Audio path: data/audio\audio.wav
+22:49:42 | INFO | pipeline | 📊 Whisper boshlanmoqda...
+22:49:42 | INFO | whisper | 🎧 Whisper boshlandi...
+23:03:44 | INFO | whisper | ✅ Tozalangan segmentlar: 126
+23:03:44 | INFO | pipeline | 📊 Segment count: 126
+23:03:44 | INFO | pipeline | 🧹 Clean segments: 126
+23:03:44 | INFO | pipeline | 🪟 Window build...
+23:03:44 | INFO | pipeline | 🪟 Window count: 741
+23:03:44 | INFO | pipeline | 💾 Windows saqlandi
+23:03:44 | INFO | pipeline | 🎬 Clip build...
+23:03:44 | INFO | pipeline | 📦 Clip count: 723
+23:03:44 | INFO | pipeline | 🧹 Filtering...
+23:03:44 | INFO | pipeline | 🏆 Top clips: 10
+23:03:44 | INFO | pipeline | 335.5-393.2 | 24.45
+23:03:44 | INFO | pipeline | 299.8-358.0 | 22.95
+23:03:44 | INFO | pipeline | 302.7-352.4 | 22.90
+23:03:44 | INFO | pipeline | 320.2-378.2 | 22.50
+23:03:44 | INFO | pipeline | 313.9-372.6 | 22.41
+23:03:44 | INFO | pipeline | ✂️ Cutting...
+23:03:45 | INFO | pipeline | 🎬 Tayyor videolar:
+23:03:45 | INFO | pipeline | data/shorts\short_0.mp4
+23:03:45 | INFO | pipeline | data/shorts\short_1.mp4
+23:03:45 | INFO | pipeline | data/shorts\short_2.mp4
+23:03:45 | INFO | pipeline | data/shorts\short_3.mp4
+23:03:45 | INFO | pipeline | data/shorts\short_4.mp4
+23:03:45 | INFO | pipeline | data/shorts\short_5.mp4
+23:03:45 | INFO | pipeline | data/shorts\short_6.mp4
+23:03:45 | INFO | pipeline | data/shorts\short_7.mp4
+23:03:45 | INFO | pipeline | data/shorts\short_8.mp4
+23:03:45 | INFO | pipeline | data/shorts\short_9.mp4
+23:03:45 | INFO | pipeline | ✅ Pipeline tugadi
+23:25:46 | INFO | pipeline | 🚀 Pipeline boshlandi
+23:25:46 | INFO | pipeline | 📁 Papkalar yaratildi
+23:25:53 | INFO | pipeline | ✅ Video yuklandi
+23:25:54 | INFO | pipeline | 🎧 Audio tayyor
+23:25:54 | INFO | pipeline | 📹 Video path: data/videos\Morning Routine to Improve Your English – Inspired by Jack Ma.mp4
+23:25:54 | INFO | pipeline | 🎧 Audio path: data/audio\audio.wav
+23:25:54 | INFO | pipeline | 📊 Whisper boshlanmoqda...
+23:25:54 | INFO | whisper | 🎧 Whisper boshlandi...
+23:40:30 | INFO | whisper | ✅ Tozalangan segmentlar: 126
+23:40:30 | INFO | pipeline | 📊 Segment count: 126
+23:40:30 | INFO | pipeline | 🧹 Clean segments: 126
+23:40:30 | INFO | pipeline | 🪟 Window build...
+23:40:30 | INFO | pipeline | 🪟 Window count: 122
+23:40:30 | INFO | pipeline | 💾 Windows saqlandi
+23:40:30 | INFO | pipeline | 🎬 Clip build...
+23:40:30 | INFO | pipeline | 📦 Clip count: 122
+23:40:30 | INFO | pipeline | 🧹 Filtering...
+23:40:30 | INFO | pipeline | 🏆 Top clips: 10
+23:40:30 | INFO | pipeline | 335.5-363.7 | 17.60
+23:40:30 | INFO | pipeline | 489.5-548.5 | 16.83
+23:40:30 | INFO | pipeline | 324.0-352.4 | 16.50
+23:40:30 | INFO | pipeline | 331.5-356.5 | 15.70
+23:40:30 | INFO | pipeline | 327.0-352.4 | 15.30
+23:40:30 | INFO | pipeline | ✂️ Cutting...
+23:40:31 | INFO | pipeline | 🎬 Tayyor videolar:
+23:40:31 | INFO | pipeline | data/shorts\short_0.mp4
+23:40:31 | INFO | pipeline | data/shorts\short_1.mp4
+23:40:31 | INFO | pipeline | data/shorts\short_2.mp4
+23:40:31 | INFO | pipeline | data/shorts\short_3.mp4
+23:40:31 | INFO | pipeline | data/shorts\short_4.mp4
+23:40:31 | INFO | pipeline | data/shorts\short_5.mp4
+23:40:31 | INFO | pipeline | data/shorts\short_6.mp4
+23:40:31 | INFO | pipeline | data/shorts\short_7.mp4
+23:40:31 | INFO | pipeline | data/shorts\short_8.mp4
+23:40:31 | INFO | pipeline | data/shorts\short_9.mp4
+23:40:31 | INFO | pipeline | ✅ Pipeline tugadi
+03:23:43 | ERROR | pipeline | 💥 CRASH: [Errno 2] No such file or directory: 'segenbt.txt'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 74, in main
+    with open("segenbt.txt", "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'segenbt.txt'
+03:24:34 | INFO | pipeline | 🪟 Window build...
+03:24:34 | INFO | pipeline | 🪟 Window count: 6
+03:53:48 | INFO | pipeline | 📹 Video path: data/videos\Morning Routine to Improve Your English – Inspired by Jack Ma.mp4
+03:53:48 | INFO | pipeline | 🎧 Audio path: data/audio\audio.wav
+03:53:48 | INFO | pipeline | 📊 Whisper boshlanmoqda...
+03:53:48 | INFO | whisper | 🎧 Whisper boshlandi...
+04:07:51 | INFO | whisper | ✅ Tozalangan segmentlar: 126
+04:07:51 | INFO | pipeline | 📊 Segment count: 126
+04:07:51 | INFO | pipeline | 🧹 Clean segments: 108
+04:07:51 | INFO | pipeline | 🪟 Window build...
+04:07:51 | INFO | pipeline | 🪟 Window count: 2
+04:29:05 | INFO | pipeline | 🪟 Window build...
+04:29:05 | INFO | pipeline | 🪟 Window count: 6
+04:36:36 | INFO | pipeline | 🪟 Window build...
+04:36:36 | INFO | pipeline | 🪟 Window count: 923
+04:44:04 | INFO | pipeline | 🪟 Window build...
+04:44:04 | INFO | pipeline | 🪟 Window count: 55
+04:49:50 | INFO | pipeline | 🪟 Window build...
+04:49:50 | INFO | pipeline | 🪟 Window count: 122
+04:53:11 | INFO | pipeline | 🪟 Window build...
+04:53:11 | INFO | pipeline | 🪟 Window count: 122
+00:43:41 | INFO | pipeline | 🪟 Window build...
+00:43:41 | INFO | pipeline | 🪟 Window count: 122
+00:43:41 | ERROR | pipeline | 💥 CRASH: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 96, in main
+    result = scoring_pipeline(w)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\scoring\scoring_pipeline.py", line 42, in scoring_pipeline
+    with open(input_path, "r", encoding="utf-8") as f:
+TypeError: expected str, bytes or os.PathLike object, not dict
+00:44:53 | INFO | pipeline | 🪟 Window build...
+00:44:53 | INFO | pipeline | 🪟 Window count: 122
+00:44:53 | ERROR | pipeline | 💥 CRASH: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 96, in main
+    result = scoring_pipeline(w)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\scoring\scoring_pipeline.py", line 42, in scoring_pipeline
+    with open(input_path, "r", encoding="utf-8") as f:
+TypeError: expected str, bytes or os.PathLike object, not dict
+00:47:42 | INFO | pipeline | 🪟 Window build...
+00:47:42 | INFO | pipeline | 🪟 Window count: 122
+00:47:42 | ERROR | pipeline | 💥 CRASH: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 96, in main
+    result = scoring_pipeline(w)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\scoring\scoring_pipeline.py", line 42, in scoring_pipeline
+    with open(input_path, "r", encoding="utf-8") as f:
+TypeError: expected str, bytes or os.PathLike object, not dict
+00:56:16 | INFO | pipeline | 🪟 Window build...
+00:56:16 | INFO | pipeline | 🪟 Window count: 122
+00:56:16 | ERROR | pipeline | 💥 CRASH: expected str, bytes or os.PathLike object, not dict
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 96, in main
+    result = scoring_pipeline(w)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\scoring\scoring_pipeline.py", line 42, in scoring_pipeline
+    with open(input_path, "r", encoding="utf-8") as f:
+TypeError: expected str, bytes or os.PathLike object, not dict
+01:04:58 | INFO | pipeline | 🪟 Window build...
+01:04:58 | INFO | pipeline | 🪟 Window count: 122
+01:04:58 | ERROR | pipeline | 💥 CRASH: string indices must be integers
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 96, in main
+    result = scoring_pipeline(w)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\scoring\scoring_pipeline.py", line 35, in scoring_pipeline
+    window["hook_score"] = hook_score(window)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\scoring\hook_score.py", line 395, in hook_score
+    text = normalize(window["text"])
+TypeError: string indices must be integers
+01:10:54 | INFO | pipeline | 🪟 Window build...
+01:10:54 | INFO | pipeline | 🪟 Window count: 122
+01:12:01 | INFO | pipeline | 🪟 Window build...
+01:12:01 | INFO | pipeline | 🪟 Window count: 122
+01:14:49 | INFO | pipeline | 🪟 Window build...
+01:14:49 | INFO | pipeline | 🪟 Window count: 122
+02:09:10 | INFO | pipeline | 🪟 Window build...
+02:09:10 | INFO | pipeline | 🪟 Window count: 122
+02:25:55 | INFO | pipeline | 🪟 Window build...
+02:25:55 | INFO | pipeline | 🪟 Window count: 122
+02:31:36 | INFO | pipeline | 🪟 Window build...
+02:31:36 | INFO | pipeline | 🪟 Window count: 122
+02:36:52 | INFO | pipeline | 🪟 Window build...
+02:36:52 | INFO | pipeline | 🪟 Window count: 122
+02:40:18 | INFO | pipeline | 🪟 Window build...
+02:40:18 | INFO | pipeline | 🪟 Window count: 122
+02:42:25 | INFO | pipeline | 🪟 Window build...
+02:42:25 | INFO | pipeline | 🪟 Window count: 122
+02:43:28 | INFO | pipeline | 🪟 Window build...
+02:43:28 | INFO | pipeline | 🪟 Window count: 122
+02:44:45 | INFO | pipeline | 🪟 Window build...
+02:44:45 | INFO | pipeline | 🪟 Window count: 122
+02:45:52 | INFO | pipeline | 🪟 Window build...
+02:45:52 | INFO | pipeline | 🪟 Window count: 122
+02:47:01 | INFO | pipeline | 🪟 Window build...
+02:47:01 | INFO | pipeline | 🪟 Window count: 122
+02:47:59 | INFO | pipeline | 🪟 Window build...
+02:47:59 | INFO | pipeline | 🪟 Window count: 122
+19:40:46 | INFO | pipeline | 🪟 Window build...
+19:40:46 | INFO | pipeline | 🪟 Window count: 122
+19:42:31 | INFO | pipeline | 🪟 Window build...
+19:42:31 | INFO | pipeline | 🪟 Window count: 122
+19:48:04 | INFO | pipeline | 🪟 Window build...
+19:48:04 | INFO | pipeline | 🪟 Window count: 122
+19:48:49 | INFO | pipeline | 🪟 Window build...
+19:48:49 | INFO | pipeline | 🪟 Window count: 122
+20:10:04 | INFO | pipeline | 🪟 Window build...
+20:10:04 | INFO | pipeline | 🪟 Window count: 122
+20:16:47 | INFO | pipeline | 🪟 Window build...
+20:16:47 | INFO | pipeline | 🪟 Window count: 122
+20:20:52 | INFO | pipeline | 🪟 Window build...
+20:20:52 | INFO | pipeline | 🪟 Window count: 122
+20:35:26 | INFO | pipeline | 🪟 Window build...
+20:35:26 | INFO | pipeline | 🪟 Window count: 122
+20:37:07 | INFO | pipeline | 🪟 Window build...
+20:37:07 | INFO | pipeline | 🪟 Window count: 122
+20:46:04 | INFO | pipeline | 🪟 Window build...
+20:46:04 | INFO | pipeline | 🪟 Window count: 122
+20:46:23 | INFO | pipeline | 🪟 Window build...
+20:46:23 | INFO | pipeline | 🪟 Window count: 122
+21:14:28 | INFO | pipeline | 🪟 Window build...
+21:14:28 | INFO | pipeline | 🪟 Window count: 122
+21:14:50 | INFO | pipeline | 🪟 Window build...
+21:14:50 | INFO | pipeline | 🪟 Window count: 122
+21:15:53 | INFO | pipeline | 🪟 Window build...
+21:15:53 | INFO | pipeline | 🪟 Window count: 122
+21:17:36 | INFO | pipeline | 🪟 Window build...
+21:17:36 | INFO | pipeline | 🪟 Window count: 122
+21:26:57 | INFO | pipeline | 🪟 Window build...
+21:26:57 | INFO | pipeline | 🪟 Window count: 122
+21:27:28 | INFO | pipeline | 🪟 Window build...
+21:27:28 | INFO | pipeline | 🪟 Window count: 122
+21:30:02 | INFO | pipeline | 🪟 Window build...
+21:30:02 | INFO | pipeline | 🪟 Window count: 122
+22:31:33 | INFO | pipeline | 🪟 Window build...
+22:31:33 | INFO | pipeline | 🪟 Window count: 122
+22:33:46 | INFO | pipeline | 🪟 Window build...
+22:33:46 | INFO | pipeline | 🪟 Window count: 122
+22:37:27 | INFO | pipeline | 🪟 Window build...
+22:37:27 | INFO | pipeline | 🪟 Window count: 122
+22:38:27 | INFO | pipeline | 🪟 Window build...
+22:38:27 | INFO | pipeline | 🪟 Window count: 122
+22:41:24 | INFO | pipeline | 🪟 Window build...
+22:41:24 | INFO | pipeline | 🪟 Window count: 122
+22:42:04 | INFO | pipeline | 🪟 Window build...
+22:42:04 | INFO | pipeline | 🪟 Window count: 122
+22:42:46 | INFO | pipeline | 🪟 Window build...
+22:42:46 | INFO | pipeline | 🪟 Window count: 122
+22:43:16 | INFO | pipeline | 🪟 Window build...
+22:43:16 | INFO | pipeline | 🪟 Window count: 122
+22:45:34 | INFO | pipeline | 🪟 Window build...
+22:45:34 | INFO | pipeline | 🪟 Window count: 122
+22:53:46 | INFO | pipeline | 🪟 Window build...
+22:53:46 | INFO | pipeline | 🪟 Window count: 122
+22:54:53 | INFO | pipeline | 🪟 Window build...
+22:54:53 | INFO | pipeline | 🪟 Window count: 122
+23:23:24 | INFO | pipeline | 🪟 Window build...
+23:23:24 | INFO | pipeline | 🪟 Window count: 122
+23:23:24 | ERROR | pipeline | 💥 CRASH: local variable 'idx' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 94, in main
+    scored_windows = scoring_pipeline(windows)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\scoring\scoring_pipeline.py", line 119, in scoring_pipeline
+    window["hook_score"] = hook_score(window)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\scoring\hook_score.py", line 488, in hook_score
+    score += hook_position_score(first)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\scoring\hook_score.py", line 458, in hook_position_score
+    if idx != -1:
+UnboundLocalError: local variable 'idx' referenced before assignment
+23:24:33 | INFO | pipeline | 🪟 Window build...
+23:24:33 | INFO | pipeline | 🪟 Window count: 122
+23:38:45 | INFO | pipeline | 🪟 Window build...
+23:38:45 | INFO | pipeline | 🪟 Window count: 122
+23:53:36 | INFO | pipeline | 🪟 Window build...
+23:53:36 | INFO | pipeline | 🪟 Window count: 122
+00:04:10 | INFO | pipeline | 🚀 Pipeline boshlandi
+00:04:10 | INFO | pipeline | 📁 Papkalar yaratildi
+00:04:17 | INFO | pipeline | ✅ Video yuklandi
+00:04:17 | INFO | pipeline | 🎧 Audio tayyor
+00:04:17 | INFO | pipeline | 📹 Video path: data/videos\The Most Eye Opening 10 Minutes Of Your Life ｜ David Goggins.mp4
+00:04:17 | INFO | pipeline | 🎧 Audio path: data/audio\audio.wav
+00:04:17 | INFO | pipeline | 📊 Whisper boshlanmoqda...
+00:04:17 | INFO | whisper | 🎧 Whisper boshlandi...
+00:18:23 | INFO | whisper | ✅ Tozalangan segmentlar: 147
+00:18:23 | INFO | pipeline | 📊 Segment count: 147
+00:18:23 | INFO | pipeline | 🪟 Window build...
+00:18:23 | INFO | pipeline | 🪟 Window count: 142
+01:08:02 | INFO | pipeline | 🚀 Pipeline boshlandi
+01:08:02 | INFO | pipeline | 📁 Papkalar yaratildi
+01:08:06 | INFO | pipeline | ✅ Video yuklandi
+01:08:07 | INFO | pipeline | 🎧 Audio tayyor
+01:08:07 | INFO | pipeline | 📹 Video path: data/videos\The Most Eye Opening 10 Minutes Of Your Life ｜ David Goggins.mp4
+01:08:07 | INFO | pipeline | 🎧 Audio path: data/audio\audio.wav
+01:08:07 | INFO | pipeline | 📊 Whisper boshlanmoqda...
+01:08:07 | INFO | whisper | 🎧 Whisper boshlandi...
+01:23:08 | ERROR | pipeline | 💥 CRASH: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 59, in main
+    segments = extract_segments_from_json(row_segments)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\segment.py", line 49, in extract_segments_from_json
+    segments = result["segments"]
+TypeError: list indices must be integers or slices, not str
+01:49:06 | INFO | pipeline | 📊 Whisper boshlanmoqda...
+01:49:06 | INFO | whisper | 🎧 Whisper boshlandi...
+02:20:40 | ERROR | pipeline | 💥 CRASH: [Errno 2] No such file or directory: 'row_segemnt.json'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 41, in main
+    with open("row_segemnt.json", "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'row_segemnt.json'
+03:25:52 | ERROR | pipeline | 💥 CRASH: scoring_pipeline() got an unexpected keyword argument 'save'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 60, in main
+    final_clip = build_final_clip(scored_windows)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 103, in build_final_clip
+    final = scoring_pipeline(combined, save=False)
+TypeError: scoring_pipeline() got an unexpected keyword argument 'save'
+03:27:37 | ERROR | pipeline | 💥 CRASH: scoring_pipeline() got an unexpected keyword argument 'save'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 60, in main
+    final_clip = build_final_clip(scored_windows)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 103, in build_final_clip
+    final = scoring_pipeline(combined, save=False)
+TypeError: scoring_pipeline() got an unexpected keyword argument 'save'
+03:35:16 | ERROR | pipeline | 💥 CRASH: scoring_pipeline() got an unexpected keyword argument 'save'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 60, in main
+    final_clip = build_final_clip(scored_windows)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 103, in build_final_clip
+    final = scoring_pipeline(combined, save=False)
+TypeError: scoring_pipeline() got an unexpected keyword argument 'save'
+15:43:08 | ERROR | pipeline | 💥 CRASH: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 79, in main
+    best = build_final_clip(bests)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 99, in build_final_clip
+    combined = combine_windows(top)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 41, in combine_windows
+    return [windows[0]]
+IndexError: list index out of range
+15:45:31 | ERROR | pipeline | 💥 CRASH: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 79, in main
+    best = build_final_clip(bests)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 99, in build_final_clip
+    combined = combine_windows(top)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 41, in combine_windows
+    return [windows[0]]
+IndexError: list index out of range
+15:48:21 | ERROR | pipeline | 💥 CRASH: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 79, in main
+    best = build_final_clip(bests)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 99, in build_final_clip
+    combined = combine_windows(top)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 41, in combine_windows
+    return [windows[0]]
+IndexError: list index out of range
+17:37:05 | ERROR | pipeline | 💥 CRASH: calculate_top_k() missing 1 required positional argument: 'video_duration_seconds'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 59, in main
+    clips = build_all_clips(scored_windows, top_k=10, target_duration=45)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 89, in build_all_clips
+    results["emotional"] = build_clip_by_score(scored_windows, "emotional_score", top_k, target_duration)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 62, in build_clip_by_score
+    top_k = calculate_top_k()
+TypeError: calculate_top_k() missing 1 required positional argument: 'video_duration_seconds'
+18:04:22 | ERROR | pipeline | 💥 CRASH: string indices must be integers
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 72, in main
+    refined = generate_context_windows(w, segments)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\slide_best_window.py", line 4, in generate_context_windows
+    inside = [
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\slide_best_window.py", line 6, in <listcomp>
+    if s["start"] >= window["start"] and s["end"] <= window["end"]
+TypeError: string indices must be integers
+18:07:38 | ERROR | pipeline | 💥 CRASH: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 59, in main
+    clips = build_all_clips(scored_windows, top_k=10, target_duration=45)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 107, in build_all_clips
+    results["emotional"] = build_clip_by_score(scored_windows, "emotional_score", top_k, target_duration)
+TypeError: list indices must be integers or slices, not str
+17:53:29 | ERROR | pipeline | 💥 CRASH: generate_context_windows() missing 1 required positional argument: 'all_segments'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 63, in main
+    new_windows = generate_context_windows(top_windows)
+TypeError: generate_context_windows() missing 1 required positional argument: 'all_segments'
+17:55:06 | ERROR | pipeline | 💥 CRASH: generate_context_windows() got an unexpected keyword argument 'min'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 63, in main
+    new_windows = generate_context_windows(top_windows, segments, min=25, max=50)
+TypeError: generate_context_windows() got an unexpected keyword argument 'min'
+17:55:48 | ERROR | pipeline | 💥 CRASH: list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 63, in main
+    new_windows = generate_context_windows(top_windows, segments, 25, 50)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\slide_best_window.py", line 4, in generate_context_windows
+    inside = [
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\slide_best_window.py", line 6, in <listcomp>
+    if s["start"] >= window["start"] and s["end"] <= window["end"]
+TypeError: list indices must be integers or slices, not str
+17:57:07 | ERROR | pipeline | 💥 CRASH: [Errno 2] No such file or directory: 'new_windows.json'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 66, in main
+    with open("new_windows.json", "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'new_windows.json'
+18:01:02 | ERROR | pipeline | 💥 CRASH: 'emotional_score'
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 72, in main
+    best = top_top(all_new_windows)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 92, in top_top
+    top_catigory = get_top(scored_windows)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 26, in get_top
+    top_emotional = sorted(scored_windows, key=lambda w: w["emotional_score"], reverse=True)
+  File "C:\Users\islom\Desktop\youtub short\models\audio\selection\top_windows.py", line 26, in <lambda>
+    top_emotional = sorted(scored_windows, key=lambda w: w["emotional_score"], reverse=True)
+KeyError: 'emotional_score'
+18:02:30 | ERROR | pipeline | 💥 CRASH: 'list' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\islom\Desktop\youtub short\main.py", line 72, in main
+    new_scored = scored_windows(all_new_windows)
+TypeError: 'list' object is not callable
