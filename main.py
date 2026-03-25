@@ -69,7 +69,7 @@ def main():
         with open("new_windows.json", "w", encoding="utf-8") as f:
             json.dump(all_new_windows, f, indent=2, ensure_ascii=False)
 
-        new_scored = scored_windows(all_new_windows)    
+        new_scored = scoring_pipeline(all_new_windows)    
 
         with open("new_scored.json", "w", encoding="utf-8") as f:
             json.dump(new_scored, f, indent=2, ensure_ascii=False)
