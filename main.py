@@ -3,7 +3,7 @@ import json
 from config import URL
 from models.download.download import download_video, extract_audio
 from utils import get_audio_path, get_video_path, prepare_folders
-#from models.detect.detect import detect_speech
+from models.detect.detect import detect_speech
 from models.cutter.cutter import cut_video
 from models.audio.whisper import whisper
 from models.audio.windows import create_windows
