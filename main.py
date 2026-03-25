@@ -20,22 +20,22 @@ logger = setup_logger("pipeline")
 def main():
     try:
 
-        # prepare_folders()
+        prepare_folders()
 
-        # download_video(URL)
-        # extract_audio()
+        download_video(URL)
+        extract_audio()
         
-        # VIDEO_PATH = get_video_path()
-        # AUDIO_PATH = get_audio_path()
+        VIDEO_PATH = get_video_path()
+        AUDIO_PATH = get_audio_path()
 
-        # logger.info("📊 Whisper boshlanmoqda...")
-        # row_segments = whisper(AUDIO_PATH)
+        logger.info("📊 Whisper boshlanmoqda...")
+        row_segments = whisper(AUDIO_PATH)
 
-        # with open("row_segments.json", "w", encoding="utf-8") as f:
-        #     json.dump(row_segments, f, indent=2, ensure_ascii=False)
+        with open("row_segments.json", "w", encoding="utf-8") as f:
+            json.dump(row_segments, f, indent=2, ensure_ascii=False)
 
-        # #🔍 SPEECH (optional — keyin yoqasiz)
-        # speech_segments = detect_speech(AUDIO_PATH)
+        #🔍 SPEECH (optional — keyin yoqasiz)
+        speech_segments = detect_speech(AUDIO_PATH)
 
         with open("row_segments.json", "r", encoding="utf-8") as f:
             row_segments = json.load(f)
