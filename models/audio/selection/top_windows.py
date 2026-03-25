@@ -4,7 +4,7 @@ from difflib import SequenceMatcher
 from utils import get_video_path
 
 def get_video_duration(url):
-    if url is None
+    if url is None:
         url = get_video_path()
     cmd = [
         "ffprobe", "-v", "error",
