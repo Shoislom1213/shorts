@@ -4,14 +4,13 @@ from config import URL
 from models.download.download import download_video, extract_audio
 from utils import get_audio_path, get_video_path, prepare_folders
 from models.detect.detect import detect_speech
-from models.cutter.cutter import cut_video
-from models.audio.whisper import whisper
-from models.audio.windows import create_windows
-from models.audio.segment import segment_cleaning
+from models.audio.prepered.whisper import whisper
+from models.audio.prepered.windows import create_windows
+from models.audio.prepered.segment import segment_cleaning
 from models.audio.scoring.scoring_pipeline import scoring_pipeline
 from models.audio.selection.slide_best_window import generate_context_windows
 from models.audio.selection.top_windows import top_top
-
+from models.audio.cutter.cutter import create_shorts
 from logger import setup_logger
 
 logger = setup_logger("pipeline")
@@ -79,9 +78,13 @@ def main():
         with open("best.json", "w", encoding="utf-8") as f:
             json.dump(best, f, indent=2, ensure_ascii=False)
 
+        logger.info("✂️ Shorts kesish boshlanmoqda...")
 
+        short_paths = create_shorts(VIDEO_PATH, best)
 
-        
+        logger.info(f"✅ {len(short_paths)} ta short yaratildi")
+
+                
     except Exception as e:
         logger.error(f"💥 CRASH: {e}", exc_info=True)
 

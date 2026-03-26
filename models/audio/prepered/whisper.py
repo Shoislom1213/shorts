@@ -1,7 +1,7 @@
 import os
 os.environ["TQDM_DISABLE"] = "1"
 
-import whisper
+import shorts.models.audio.preperde.whisper as whisper
 from logger import setup_logger
 
 logger = setup_logger("whisper")
