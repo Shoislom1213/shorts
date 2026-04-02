@@ -1,4 +1,3 @@
-import json
 import re
 
 from models.audio.scoring.hook_score import hook_score
@@ -8,7 +7,8 @@ from models.audio.scoring.intensity import intensity_score
 from models.audio.scoring.contrast_score import contrast_score
 from models.audio.scoring.value_scor import value_score
 from models.audio.scoring.hook_score import trim_bad_ending
-  
+from logger import setup_logger
+logger = setup_logger("Scorin piple")
 
 def normalize(val, max_val):
     return val / max_val if max_val > 0 else 0
@@ -67,7 +67,7 @@ def add_decision_scores(w):
 
 
 def scoring_pipeline(windows):
-
+    logger.info('📝 Scoring piple ishga tushdi')
     cleaned_windows = []
 
     for window in windows:
@@ -151,11 +151,6 @@ def scoring_pipeline(windows):
     for w in windows:
         w["total_score"] = compute_total_score(w)
 
-#     windows = [
-#     w for w in windows
-#     if (w["total_score"] > 0.28 or w["hook_norm"] > 0.7) 
-#        and 30 <= w["duration"] <= 45
-# ]
     windows = sorted(windows, key=lambda x: x["total_score"], reverse=True)
 
     filtered = []
@@ -181,6 +176,7 @@ def scoring_pipeline(windows):
         if keep:
             filtered.append(w)
 
+    logger.info('📝 Scoring piple yakunlandi!')
     return filtered
 
 def pick_top_by_category(windows, top_k=3):

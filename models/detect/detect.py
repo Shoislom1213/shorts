@@ -3,6 +3,10 @@ import librosa
 import numpy as np
 import random
 
+from logger import setup_logger
+
+logger = setup_logger("speech_detector", "logs/speech_detector.log")
+
 model = whisper.load_model("small")
 
 
@@ -23,7 +27,7 @@ def detect_speech(audio_path, num_samples=15, chunk_duration=8, threshold=0.3):
 
         energy = np.mean(librosa.feature.rms(y=y_sample))
         if energy < 0.01:
-            continue  # skip jim joy
+            continue  
 
         checked += 1
 

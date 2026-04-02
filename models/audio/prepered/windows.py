@@ -1,3 +1,6 @@
+from logger import setup_logger
+logger = setup_logger("windows")
+
 def create_windows(
     segments,
     min_duration=25,
@@ -27,29 +30,28 @@ def create_windows(
 
             text = " ".join(text_parts)
 
-            # ⛔ maxdan oshsa stop
             if duration > max_duration:
                 break
 
-            # ⏳ hali kichik bo‘lsa davom et
             if duration < min_duration:
                 continue
             
             if not text or text.strip() == ".":
                 continue
 
-            # ✅ valid window
             if len(text.split()) < min_words:
                 continue
 
-            windows.append({
+            window ={
                 "start": start,
                 "end": end,
                 "duration": duration,
                 "text": text,
                 "segment_count": j - i + 1
-            })
+            }
 
+            windows.append(window)
+            logger.info(f"🪟 Window yaratildi: start={start}, end={end}, duration={duration:.1f}s, segments={window['segment_count']}")
             break
-
+    logger.info(f"✅ Umumiy windows soni: {len(windows)}")
     return windows

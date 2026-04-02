@@ -1,5 +1,6 @@
 import re
-
+from logger import setup_logger
+logger = setup_logger("Intensity")
 STRONG_WORDS = {
     # 🚨 urgency / command (eng kuchli signal)
     "urgency": {
@@ -239,4 +240,5 @@ def intensity_score(text: str) -> float:
     # =========================
     # 🔒 FINAL NORMALIZATION
     # =========================
+    logger.info("📝 Intensity score yakunlandi")
     return min(score, 15)

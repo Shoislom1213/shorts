@@ -1,4 +1,6 @@
-import re
+from logger import setup_logger
+
+logger = setup_logger("segments")
 
 
 def clean_text(text):
@@ -16,7 +18,6 @@ def clean_text(text):
     return text
 
 
-# 🔥 MERGE — ENG MUHIM QISM
 def merge_segments(segments):
 
     merged = []
@@ -34,7 +35,6 @@ def merge_segments(segments):
             buffer = seg
             continue
 
-        # 🔥 AGRESSIVE MERGE (PRO)
         if (
             duration < 4
             or len(buffer["text"].split()) < 6
@@ -48,7 +48,7 @@ def merge_segments(segments):
 
     if buffer:
         merged.append(buffer)
-
+    logger.info(f"🔹 Segmentlar birlashtirildi: {len(segments)} -> {len(merged)}")
     return merged
 
 
@@ -56,7 +56,6 @@ def segment_cleaning(segments):
     cleaned_segments = []
     last_end = 0
 
-    # 🔥 1. BASIC CLEAN + FILTER
     for seg in segments:
         start = round(seg["start"], 1)
         end = round(seg["end"], 1)
@@ -69,7 +68,6 @@ def segment_cleaning(segments):
         if not text:
             continue
 
-        # 🔥 MIN FILTER
         if len(text.split()) < 4:
             continue
 
@@ -84,20 +82,16 @@ def segment_cleaning(segments):
 
         last_end = end
 
-    # 🔥 2. MERGE (ENG MUHIM)
     cleaned_segments = merge_segments(cleaned_segments)
 
-    # 🔥 3. FINAL FILTER (QUALITY CONTROL)
     final_segments = []
 
     for seg in cleaned_segments:
         duration = seg["end"] - seg["start"]
 
-        # ❌ juda qisqa
         if duration < 3:
             continue
 
-        # ❌ juda uzun (window uchun qoldiramiz)
         if duration > 20:
             continue
 

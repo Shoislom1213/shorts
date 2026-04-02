@@ -1,0 +1,38 @@
+[
+  {
+    "video_name": "short_1",
+    "text": "And you're thinking, what kind of crazy statistic is that? The number should be one. My doctor wouldn't prescribe something to me if it's not going to help, but actually medical practice doesn't work that way. And it's not the doctor's fault. If anybody's fault, it's the fault of scientists like me. We haven't figured out the underlying mechanisms well enough. But GlaxoSmithKline estimates that 90% of the drugs work in only 30% to 50% of the people. So the number needed to treat for the most widely prescribed statin. And what do you suppose it is? How many people have to take it before one person's helped? This is according to research by research practitioners Jerome Gruppen and Pamela Hartzband, independently confirmed by Bloomberg.com.",
+    "text_features": {
+      "word_count": 125,
+      "sentiment": 0.14444444444444446
+    },
+    "audio_features": {
+      "rms": 0.09928812831640244,
+      "tempo": 117.45383522727273
+    },
+    "video_features": {
+      "duration": 43.34,
+      "motion_intensity": 11.616141580534023
+    },
+    "total_score": 0.48621219512195135,
+    "weighted_score": 0.7026890243902439
+  },
+  {
+    "video_name": "short_2",
+    "text": "But it's really good for things that don't move around much, not so good for things that move around. So this is why we lose car keys and reading glasses and passports. So in the home, designate a spot for your keys, a hook by the door, maybe a decorative bowl, for your passport, a particular drawer, for your reading glasses, a particular table. If you designate a spot and you're scrupulous about it, your things will always be there when you look for them. Take a cell phone picture of your credit cards, your driver's license, your passport, mail it to yourself so it's in the cloud. If these things are lost or stolen, you can facilitate replacement. Now, these are some rather obvious things.",
+    "text_features": {
+      "word_count": 126,
+      "sentiment": 0.32222222222222224
+    },
+    "audio_features": {
+      "rms": 0.09496896713972092,
+      "tempo": 143.5546875
+    },
+    "video_features": {
+      "duration": 41.64,
+      "motion_intensity": 10.320196026949016
+    },
+    "total_score": 0.5509088888888889,
+    "weighted_score": 0.6550166666666667
+  }
+]

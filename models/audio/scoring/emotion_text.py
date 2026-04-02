@@ -1,5 +1,6 @@
 import re
-
+from logger import setup_logger
+logger = setup_logger("text_emotion") 
 
 # 🔥 NORMALIZATION
 def normalize_text(text):
@@ -47,6 +48,8 @@ def emotion_text_score(text):
     # 🔥 punctuation (capped)
     score += min(text.count("!"), 3) * 0.5
     score += min(text.count("?"), 3) * 0.5
+
+    logger.info(f"📝 Text emotion yakunlandi")
 
     return score
 

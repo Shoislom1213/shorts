@@ -1,5 +1,7 @@
+from logger import setup_logger
+logger = setup_logger("Slide windows")
 def generate_context_windows(window, all_segments, min_dur=30, max_dur=45):
-
+    logger.info("Slide windows boshlandi segment bilan")
     # 🔥 1. window ichidagi segmentlar
     inside = [
         s for s in all_segments
@@ -48,5 +50,5 @@ def generate_context_windows(window, all_segments, min_dur=30, max_dur=45):
                 "pattern": f"{'A'*left_count}0{'A'*right_count}",
                 "segments": len(segs)
             })
-
+    logger.info("Slide windows yakunlandi")
     return results

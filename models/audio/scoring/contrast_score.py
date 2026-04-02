@@ -1,5 +1,6 @@
 import re
-
+from logger import setup_logger
+logger = setup_logger("pipeline") 
 
 CONTRAST_TRIGGERS = {
     "strong": {
@@ -157,4 +158,6 @@ def contrast_score(text: str) -> float:
     # =========================
     # 🔒 FINAL
     # =========================
-    return max(0, min(score, 10))
+    final_score = max(0, min(score, 10))
+    logger.info(f"💡 Contrast score yakunlandi")
+    return final_score

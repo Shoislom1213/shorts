@@ -1,7 +1,9 @@
 import numpy as np
 import librosa
 from utils import get_audio_path
+from logger import setup_logger
 
+logger = setup_logger("emotion")  
 
 # 🔥 LOAD AUDIO (1 marta)
 def load_audio():
@@ -63,7 +65,6 @@ def spike_score(rms):
 
     diff = np.diff(rms)
 
-    # ✅ PATCH: dynamic threshold
     threshold = np.mean(diff) + np.std(diff)
 
     spikes = np.sum(diff > threshold)
@@ -71,14 +72,12 @@ def spike_score(rms):
     return min(int(spikes), 3)
 
 
-# 🔥 SILENCE DETECTION (PATCHED 🔥)
 def silence_score(energy, stats):
     if energy < stats["rms_mean"] * 0.3:
         return 1
     return 0
 
 
-# 🔥 AUDIO EMOTION SCORE
 def audio_emotion_score(features, stats):
     score = 0
 
@@ -138,6 +137,8 @@ def process_window_audio(window, audio, sr, stats):
         "energy": features["energy"],
         "variation": features["variation"]
     })
+
+    logger.info("🎵 Audio emotion yakunlandi")
 
     return window
 

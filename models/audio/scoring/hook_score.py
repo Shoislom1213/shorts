@@ -1,4 +1,6 @@
 import re
+from logger import setup_logger
+logger = setup_logger("hook score")
 
 HOOK_PHRASES = {
 
@@ -582,5 +584,5 @@ def hook_score(window):
     # bonus first 20 words
     if len(first.split()) <= 20:
         score += 0.2
-
+    logger.info("📝 Hook score yakunlandi")
     return min(score, 10)

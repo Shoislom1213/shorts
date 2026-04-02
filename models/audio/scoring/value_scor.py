@@ -1,3 +1,6 @@
+from logger import setup_logger
+logger = setup_logger("Value")
+
 def value_score(text):
     text = text.lower()
     score = 0
@@ -13,6 +16,7 @@ def value_score(text):
         score += 2
 
     # 🎯 LIMIT
+    logger.info(f"📝 Value score yakunlandi")
     return min(score, 10)
 
 VALUE_DICT = {
